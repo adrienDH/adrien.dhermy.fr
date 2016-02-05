@@ -1,18 +1,139 @@
-#cover img {
-  width: 100%;
+#presentation {
+  padding: 30px 0;
 }
-#title {
-  background: #D27D58;
+#presentation .title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+  margin-botom: 30px;
   text-align: center;
 }
-#title h1 {
-  color: #fff;
-  margin-top: 30px;
-  font-size: 30px;
+#presentation .title .name {
+  font-weight: bold;
 }
-#title h2 {
+#presentation .text {
+  color: #888;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+#presentation .button-wrapper {
+  margin: 40px 0;
+  text-align: center;
+}
+#presentation .button-wrapper .button {
+  background: #43b3e0;
+  border-radius: 10px;
   color: #fff;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: center;
+}
+#presentation .button-wrapper .button.contact {
+  margin-left: 15px;
+}
+#experiences {
+  background: #fafafa;
+  padding: 30px 0;
+}
+#experiences .title {
+  font-size: 28px;
+  margin-botom: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+#experiences .subtitle {
   font-size: 22px;
+  margin-left: 15px;
+}
+#experiences .bloc {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#experiences .bloc .year {
+  margin: 5px 0;
+}
+#skills {
+  background: #f4f4f4;
+  padding: 30px 0;
+}
+#skills .title {
+  font-size: 28px;
+  margin-top: 0;
+  margin-botom: 30px;
+  text-align: center;
+}
+#skills .bar {
+  background: #ddd;
+  border-radius: 15px;
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+}
+#skills .bar .full {
+  background: #43b3e0;
+  border-radius: 15px;
+  display: block;
+  height: 20px;
+  text-align: center;
+}
+#skills .bar .full.html {
+  width: 60%;
+}
+#skills .bar .full.php {
+  width: 40%;
+}
+#skills .bar .full.css {
+  width: 70%;
+}
+#skills .bar .full.html {
+  width: 60%;
+}
+#skills .bar .full .number {
+  color: #fff;
+  font-weight: bold;
+}
+#formations {
+  background: #e8e8e8;
+  padding: 30px 0;
+}
+#formations .title {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#formations .circle {
+  background: #fff;
+  border-radius: 100%;
+  display: table-cell;
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  width: 300px;
+}
+#contact {
+  background: #2e2e2e;
+  padding: 30px 0;
+}
+#contact .title {
+  color: #fff;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#contact form input,
+#contact form textarea {
+  border-radius: 2px;
+  margin: 15px 0;
+  height: 50px;
+  width: 100%;
+}
+#contact form textarea {
+  height: 250px;
 }

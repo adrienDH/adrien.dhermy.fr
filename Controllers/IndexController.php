@@ -10,7 +10,6 @@ class IndexController extends MainController {
 	}
 	
 	public function homeAction() {
-		
 		return array();
 	}
 	

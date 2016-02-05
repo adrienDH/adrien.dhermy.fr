@@ -1,23 +1,166 @@
-#cover {
-	img {
-		width: 100%;
+#presentation {
+	padding: 30px 0;
+	
+	.title {
+		font-family: "Open Sans", sans-serif;
+		font-size: 30px;
+		margin-top: 0;
+		margin-botom: 30px;
+		text-align: center;
+		
+		.name {
+			font-weight: bold;
+		}
+		
+	}
+	.text {
+		color: #888;
+		font-size: 24px;
+		font-family: "Open Sans", sans-serif;
+		text-align: center;
+	}
+	
+	.button-wrapper {
+		margin: 40px 0;
+		text-align: center;
+	
+		.button {
+			background: #43b3e0;
+			border-radius: 10px;
+			color: #fff;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 18px;
+			padding: 10px 20px;
+			text-align: center;
+			
+			&.contact {
+				margin-left: 15px;
+			}
+		}
 	}
 }
 
-#title {
-	background: #D27D58;
-	text-align: center;
+#experiences {
+	background: #fafafa;
+	padding: 30px 0;
 	
-	h1 {
-		color: #fff;
-		margin-top: 30px;
-		font-size: 30px;
+	.title {
+		font-size: 28px;
+		margin-botom: 30px;
+		margin-top: 0;
+		text-align: center;
 	}
 	
-	h2 {
-		color: #fff;
-		margin-top: 15px;
-		margin-bottom: 30px;
+	.subtitle {
 		font-size: 22px;
+		margin-left: 15px;
+	}
+	
+	.bloc {
+		background: #fff;
+		border: 1px solid #ddd;
+		margin-bottom: 40px;
+		text-align: center;
+		
+		.year {
+			margin: 5px 0;
+		}
+	}
+
+}
+
+#skills {
+	background: #f4f4f4;
+	padding: 30px 0;
+	
+	.title {
+		font-size: 28px;
+		margin-top: 0;
+		margin-botom: 30px;
+		text-align: center;
+	}
+	
+	.bar {
+		background: #ddd;
+		border-radius: 15px;
+		display: block;
+		margin: 20px 0;
+		width: 100%;
+		
+		.full {
+			background: #43b3e0;
+			border-radius: 15px;
+			display: block;
+			height: 20px;
+			text-align: center;
+			
+			&.html {
+				width: 60%;
+			}
+			&.php {
+				width: 40%;
+			}
+			&.css {
+				width: 70%;
+			}
+			
+			&.html {
+				width: 60%;
+			}
+			
+			.number {
+				color: #fff;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+#formations {
+	background: #e8e8e8;
+	padding: 30px 0;
+	
+	.title {
+		font-size: 28px;
+		margin-top: 0;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	
+	.circle {
+		background: #fff;
+		border-radius: 100%;
+		display: table-cell;
+		height: 300px;
+		text-align: center;
+		vertical-align: middle;
+		width: 300px;
+	}
+}
+
+#contact {
+	background: #2e2e2e;
+	padding: 30px 0;
+	
+	.title {
+		color: #fff;
+		font-size: 28px;
+		margin-top: 0;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	
+	form {
+		input, textarea {
+			border-radius: 2px;
+			margin: 15px 0;
+			height: 50px;
+			width: 100%;
+		}
+		textarea {
+			height: 250px;
+		}
+		
 	}
 }
