@@ -1,1 +1,0 @@
-<h1>Je suis sur la page planète</h1>

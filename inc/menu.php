@@ -11,15 +11,6 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active">
-					<a href="<?= rootUrl() . $links["planete"] ?>">La planète</a>
-				</li>
-				<li>
-					<a href="#">Les sondes</a>
-				</li>
-				<li>
-					<a href="#">Les rovers</a>
-				</li>
 				<li>
 					<a href="#">Contact</a>
 				</li>
@@ -27,3 +18,6 @@
 		</div>
 	</div>
 </nav>
+
+
+<!-- Ne pas oublier la class active au <li> -->
