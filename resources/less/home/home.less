@@ -153,13 +153,33 @@
 	
 	form {
 		input, textarea {
+			background: #4f4f4f;
+			border: 1px solid #ddd;
 			border-radius: 2px;
 			margin: 15px 0;
 			height: 50px;
+			padding-left: 10px;
 			width: 100%;
 		}
 		textarea {
 			height: 250px;
+		}
+		.button {
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			display: block;
+			font-weight: bold;
+			margin-top: 15px;
+			padding: 15px 0;
+			text-align: center;
+			
+			&.send {
+				background: #43b3e0;
+			}
+			&.reset {
+				background: #4f4f4f;
+			}
 		}
 		
 	}

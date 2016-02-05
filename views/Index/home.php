@@ -147,6 +147,16 @@
 						Message
 					</textarea>
 				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="button send">
+						Envoyer
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="button reset">
+						Reset
+					</div>
+				</div>
 			</div>
 		</form>
 	</div>

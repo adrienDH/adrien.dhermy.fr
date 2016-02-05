@@ -129,11 +129,30 @@
 }
 #contact form input,
 #contact form textarea {
+  background: #4f4f4f;
+  border: 1px solid #ddd;
   border-radius: 2px;
   margin: 15px 0;
   height: 50px;
+  padding-left: 10px;
   width: 100%;
 }
 #contact form textarea {
   height: 250px;
+}
+#contact form .button {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 15px 0;
+  text-align: center;
+}
+#contact form .button.send {
+  background: #43b3e0;
+}
+#contact form .button.reset {
+  background: #4f4f4f;
 }
