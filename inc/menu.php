@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand nav-cursor js-scroll-top">Adrien Dhermy</a>
+			<a class="navbar-brand nav-cursor border js-scroll-top">Adrien Dhermy</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
@@ -22,6 +22,11 @@
 				</li>
 				<li class="nav-cursor js-scroll" data-scroll-target="#contact">
 					<a>Contact</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="./resources/pdf/CV_Adrien_Dhermy.pdf">CV PDF</a>
 				</li>
 			</ul>
 		</div>

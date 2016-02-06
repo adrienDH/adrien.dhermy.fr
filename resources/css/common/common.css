@@ -5,6 +5,10 @@ body {
 nav {
   background: #B09B8A;
 }
+nav .border {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
 nav .nav-cursor {
   cursor: pointer;
 }
