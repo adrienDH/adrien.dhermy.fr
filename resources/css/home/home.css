@@ -20,7 +20,7 @@
 }
 #presentation .text {
   color: #888;
-  font-size: 24px;
+  font-size: 21px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
@@ -168,6 +168,17 @@
   background: #2e2e2e;
   padding: 30px 0;
 }
+#contact .text {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+#contact .error {
+  color: #a52a2a;
+  font-size: 18px;
+  padding-left: 15px;
+  text-decoration: underline;
+}
 #contact .title {
   color: #fff;
   font-size: 28px;
@@ -175,8 +186,8 @@
   margin-bottom: 30px;
   text-align: center;
 }
-#contact form input,
-#contact form textarea {
+#contact .form-wrapper input,
+#contact .form-wrapper textarea {
   background: #4f4f4f;
   border: 1px solid #8e8e8e;
   border-radius: 2px;
@@ -186,13 +197,13 @@
   padding-left: 10px;
   width: 100%;
 }
-#contact form textarea {
+#contact .form-wrapper textarea {
   line-height: 35px;
   height: 250px;
   min-height: 150px;
   min-width: 100%;
 }
-#contact form .button {
+#contact .form-wrapper .button {
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
@@ -202,10 +213,10 @@
   padding: 15px 0;
   text-align: center;
 }
-#contact form .button.send {
+#contact .form-wrapper .button.send {
   background: #43b3e0;
 }
-#contact form .button.reset {
+#contact .form-wrapper .button.reset {
   background: #4f4f4f;
 }
 @media (max-width: 768px) {

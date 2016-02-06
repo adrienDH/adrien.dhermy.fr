@@ -3,6 +3,7 @@
 
 <link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
+<link rel="stylesheet" type="text/css" href="./resources/icomoon/style.css">
 
 
 <?php foreach($mainController->getCssPaths() as $css): ?>

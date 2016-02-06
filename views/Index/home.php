@@ -188,31 +188,32 @@
 <div id="contact">
 	<div class="container">
 		<h2 class="title">Me contacter</h2>
-		<form method="post">
+		<div class="form-wrapper">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
-					<input class="js-target" type="text" placeholder="Entreprise/Nom">
+					<input class="js-target js-name" type="text" placeholder="Entreprise/Nom">
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<input type="text" placeholder="Email">
+					<input class="js-email" placeholder="Email">
 				</div>
 				<div class="col-xs-12 ">
-					<input type="text" placeholder="Objet">
+					<input class="js-subject" type="text" placeholder="Objet">
 				</div>
 				<div class="col-xs-12 ">
-					<textarea placeholder="Message"></textarea>
+					<textarea class="js-message" placeholder="Message"></textarea>
 				</div>
+				<div class="error"></div>
 				<div class="col-xs-12 col-md-6">
-					<div class="button send">
+					<div class="button send js-send">
 						Envoyer
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<div class="button reset">
+					<div class="button reset js-reset">
 						Reset
 					</div>
 				</div>
 			</div>
-		</form>
+		</div>
 	</div>
 </div>
