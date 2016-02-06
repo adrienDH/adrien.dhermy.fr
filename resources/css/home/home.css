@@ -208,3 +208,22 @@
 #contact form .button.reset {
   background: #4f4f4f;
 }
+@media (max-width: 768px) {
+  #presentation .text {
+    font-size: 14px;
+  }
+  #presentation .button-wrapper {
+    margin: 0;
+  }
+  #presentation .button-wrapper .button {
+    display: block;
+    margin: 10px 0;
+  }
+  #presentation .button-wrapper .button.contact {
+    margin: 0;
+  }
+  #formations .circle {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
