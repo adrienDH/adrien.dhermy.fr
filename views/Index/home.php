@@ -136,7 +136,7 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-md-6">
-				<span class="bar">
+				<span class="bar second-column">
 					<span class="full bootstrap"><span class="skill">Bootstrap</span></span>
 				</span>
 				<span class="bar">
@@ -164,7 +164,7 @@
 						<span class="degree">Licence professionnelle SARI</span> à l'IUT de Bordeaux (Mention B) 
 					</div>
 					<div class="department">
-						33
+						Département : 33
 					</div>
 				</div>
 			</div>
@@ -175,7 +175,7 @@
 						<span class="degree">BTS IRIS</span> au Lycée Grandmont de Tours (Mention AB)
 					</div>
 					<div class="department">
-						37
+						Département : 37
 					</div>
 				</div>
 			</div>
@@ -186,7 +186,7 @@
 						<span class="degree">BAC STI</span> au Lycée de la Plaine de l'Ain de Amberieu en Bugey (Mention AB)
 					</div>
 					<div class="department">
-						01
+						Département : 01
 					</div>
 				</div>
 			</div>

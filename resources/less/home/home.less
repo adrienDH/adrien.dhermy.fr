@@ -167,7 +167,8 @@
 	
 	.circle {
 		background: #fff;
-		border-radius: 100%;
+		border: 1px solid #ddd;
+		border-radius: 30%;
 		display: block;
 		height: 300px;
 		margin: 0 auto;
@@ -253,6 +254,14 @@
 	}
 }
 
+@media (max-width: 992px) {
+	#formations {
+		.circle {
+			margin-top: 10px;
+		}
+	}
+}
+
 @media (max-width: 768px) {
 	#presentation {
 		.text {
@@ -271,10 +280,21 @@
 			}
 		}
 	}
+	#skills {
+		.second-column {
+			margin-top: 0;
+		}
+	}
 	#formations {
 		.circle {
+			height: 200px;
 			margin-bottom: 20px;
+			padding: 0 15px;
 			width: 100%;
+			
+			.year {
+				padding-top: 50px;
+			}
 		}
 	}
 }
