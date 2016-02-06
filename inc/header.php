@@ -1,5 +1,9 @@
 <html>
-<title>home</title>
+<title>Adrien Dhermy CV</title>
+<meta name="description" content="Retrouvez toutes les informations professionnelles sur Adrien Dhermy sur son CV en ligne" />
+<meta name="keyword" content="Retrouvez toutes les informations professionnelles sur Adrien Dhermy sur son CV en ligne" />
+<meta name="keywords" content="adrien dhermy, Adrien Dhermy, Adrien dhermy, adrien Dhermy, Adrien Dhermy CV"> 
+
 
 <link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
