@@ -4,6 +4,7 @@
 <meta name="keyword" content="Retrouvez toutes les informations professionnelles sur Adrien Dhermy sur son CV en ligne" />
 <meta name="keywords" content="adrien dhermy, Adrien Dhermy, Adrien dhermy, adrien Dhermy, Adrien Dhermy CV"> 
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
