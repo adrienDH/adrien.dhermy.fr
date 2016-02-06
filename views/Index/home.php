@@ -13,17 +13,17 @@
 		<div class="row">
 			<div class="hidden-xs hidden-sm col-md-3">
 				<div class="picture-wrapper">
-					<img src="./resources/images/photo.png">
+					<img alt="Adrien Dhermy" src="./resources/images/adrien_dhermy.png">
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-9">
 				<h1 class="title">
 					Bonjour, Je suis <spans class="name">Adrien Dhermy</span>
 				</h1>
-				<div class="text">
+				<h2 class="text">
 					Développeur web Front End depuis 2 ans, j'habite Talence (à côté de Bordeaux).
 					Je suis actuellement en CDI dans la société Jobijoba.
-				</div>
+				</h2>
 				<div class="button-wrapper">
 					<div class="button js-more-infos">En savoir plus sur moi...</div>
 					<div class="button contact js-contact">Me contacter</div>
@@ -35,11 +35,11 @@
 
 <div id="experiences">
 	<div class="container">
-		<h2 class="title">
+		<h3 class="title">
 			Mes expériences
-		</h2>
+		</h3>
 		<div class="row">
-			<h3 class="subtitle">Informatique : </h3>
+			<h4 class="subtitle">Informatique : </h4>
 			<div class="col-xs-12 col-md-4">
 				<div class="bloc">
 					<div class="year">Octobre 2014 à aujourd'hui</div>
@@ -98,7 +98,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<h3 class="subtitle">Autres : </h3>
+			<h4 class="subtitle">Autres : </h4>
 			<div class="col-xs-12 col-md-6">
 				<div class="bloc">
 					<div class="year">Juillet - Août 2014</div>
@@ -119,7 +119,7 @@
 
 <div id="skills">
 	<div class="container">
-		<h2 class="title">Mes compétences</h2>
+		<h3 class="title">Mes compétences</h3>
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
 				<span class="bar">
@@ -155,7 +155,7 @@
 
 <div id="formations">
 	<div class="container">
-		<h2 class="title">Mes formations</h2>
+		<h3 class="title">Mes formations</h3>
 		<div class="row">
 			<div class="col-xs-12 col-md-4">
 				<div class="circle">
@@ -187,7 +187,7 @@
 
 <div id="contact">
 	<div class="container">
-		<h2 class="title">Me contacter</h2>
+		<h3 class="title">Me contacter</h3>
 		<div class="form-wrapper">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">

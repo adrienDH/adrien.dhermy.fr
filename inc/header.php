@@ -1,8 +1,7 @@
 <html>
 <title>Adrien Dhermy CV</title>
-<meta name="description" content="Retrouvez toutes les informations professionnelles sur Adrien Dhermy sur son CV en ligne" />
-<meta name="keyword" content="Retrouvez toutes les informations professionnelles sur Adrien Dhermy sur son CV en ligne" />
-<meta name="keywords" content="adrien dhermy, Adrien Dhermy, Adrien dhermy, adrien Dhermy, Adrien Dhermy CV"> 
+<meta name="description" content="Retrouvez toutes les informations professionnelles sur Adrien Dhermy dans son CV en ligne" />
+<meta name="keywords" content="adrien dhermy, Adrien Dhermy, Adrien dhermy, adrien Dhermy, Adrien Dhermy CV, Développeur, Développeur Front"> 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
