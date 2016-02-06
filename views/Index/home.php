@@ -49,14 +49,14 @@
 					<div>
 						en <span class="contract">CDI</span>
 					</div>
-					<div class="text">Travail dans le pôle front en communication avec le les pôles marketing et Back End</div>
+					<div class="text">Travail dans le pôle front en communication avec les pôles marketing et Back End</div>
 					<div class="text">
-						Langage et compétence utilisés : 
+						Langages et compétences utilisés : 
 						<span class="skills">PHP</span>, 
 						<span class="skills">HTML</span>, 
 						<span class="skills">CSS</span>, 
 						<span class="skills">Jquery</span>, 
-						<span class="skills">Boostrap</span>, 
+						<span class="skills">Bootstrap</span>, 
 						<span class="skills">MongoDB</span>
 					</div>
 				</div>
@@ -69,9 +69,9 @@
 						<div>
 							en <span class="contract">Stage (+3 semaine en CDD)</span>
 						</div>
-						<div class="text">Travail avec les laborantin pour stocker des mesures dans une base de données</div>
+						<div class="text">Travail avec les laborantins pour stocker des mesures dans une base de données</div>
 						<div class="text">
-							Langage et compétence utilisés : 
+							Langages et compétences utilisés : 
 							<span class="skills">PHP</span>, 
 							<span class="skills">HTML</span>, 
 							<span class="skills">CSS</span>, 
@@ -90,7 +90,7 @@
 					</div>
 					<div class="text">Travail avec les commerciaux et techniciens pour la vente de matériel Apple</div>
 					<div class="text">
-						Langage et compétence utilisés : 
+						Langages et compétences utilisés : 
 						<span class="skills">Préparation d'ordinateur</span>, 
 						<span class="skills">MAC OSX</span>,
 					</div>

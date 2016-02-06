@@ -26,7 +26,7 @@ $( document ).ready(function() {
 		
 		if(name == "" || email == "" || subject == "" || message == "") {
 			$("#contact .error").empty();
-			$("#contact .error").append("Tout les champs demandés sont obligatoire");
+			$("#contact .error").append("Tous les champs demandés sont obligatoires");
 		} else {
 			$.ajax({
 				url : "./ajax/insert_contact.php",
