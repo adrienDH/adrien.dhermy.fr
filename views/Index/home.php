@@ -101,14 +101,14 @@
 			<h4 class="subtitle">Autres : </h4>
 			<div class="col-xs-12 col-md-6">
 				<div class="bloc">
-					<div class="year">Juillet - Août 2014</div>
+					<div class="year">Été 2014</div>
 					<span class="jobtitle">Agent de service</span> chez <span class="company">Saines Nettoyage</span>
 					<div class="text">Entretien de plusieurs résidences</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6">
 				<div class="bloc">
-					<div class="year">Vaccances 2009 à 2012</div>
+					<div class="year">Été 2009 à 2012</div>
 					<span class="jobtitle">Réserviste</span> dans <span class="company">l'Armée de l'air</span>
 					<div class="text">Sécurité et protection de la base 705 de Tours</div>
 				</div>
