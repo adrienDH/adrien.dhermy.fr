@@ -7,12 +7,21 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?= rootUrl() ?>">Mon site</a>
+			<a class="navbar-brand nav-cursor js-scroll-top">Adrien Dhermy</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li>
-					<a href="#">Contact</a>
+				<li class="nav-cursor js-scroll" data-scroll-target="#experiences">
+					<a>Expériences</a>
+				</li>
+				<li class="nav-cursor js-scroll" data-scroll-target="#skills">
+					<a>Compétences</a>
+				</li>
+				<li class="nav-cursor js-scroll" data-scroll-target="#formations">
+					<a>Formations</a>
+				</li>
+				<li class="nav-cursor js-scroll" data-scroll-target="#contact">
+					<a>Contact</a>
 				</li>
 			</ul>
 		</div>

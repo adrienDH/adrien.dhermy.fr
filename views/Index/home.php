@@ -2,6 +2,10 @@
 	$mainController->addCssPaths(array(
 		"./resources/css/home/home"
 	));
+	
+	$mainController->addJsPaths(array(
+			"./resources/js/home/home"
+	));
 ?>
 
 <div id="presentation">
@@ -14,15 +18,15 @@
 			</div>
 			<div class="col-xs-12 col-md-9">
 				<h1 class="title">
-					Bonjour, Je m'appelle <spans class="name">Adrien Dhermy</span>
+					Bonjour, Je suis <spans class="name">Adrien Dhermy</span>
 				</h1>
 				<div class="text">
 					Développeur web Front End depuis 2 ans, j'habite Talence (à côté de Bordeaux).
 					Je suis actuellement en CDI dans la société Jobijoba.
 				</div>
 				<div class="button-wrapper">
-					<div class="button">En apprendre plus sur moi...</div>
-					<div class="button contact">Me contacter</div>
+					<div class="button js-more-infos">En savoir plus sur moi...</div>
+					<div class="button contact js-contact">Me contacter</div>
 				</div>
 			</div>
 		</div>
@@ -187,7 +191,7 @@
 		<form method="post">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
-					<input type="text" placeholder="Entreprise/Nom">
+					<input class="js-target" type="text" placeholder="Entreprise/Nom">
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<input type="text" placeholder="Email">
@@ -196,9 +200,7 @@
 					<input type="text" placeholder="Objet">
 				</div>
 				<div class="col-xs-12 ">
-					<textarea>
-						Message
-					</textarea>
+					<textarea placeholder="Message"></textarea>
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="button send">

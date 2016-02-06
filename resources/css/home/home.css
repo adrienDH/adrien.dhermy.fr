@@ -36,6 +36,7 @@
   cursor: pointer;
   display: inline-block;
   font-size: 18px;
+  font-weight: bold;
   padding: 10px 20px;
   text-align: center;
 }
@@ -186,7 +187,10 @@
   width: 100%;
 }
 #contact form textarea {
+  line-height: 35px;
   height: 250px;
+  min-height: 150px;
+  min-width: 100%;
 }
 #contact form .button {
   border-radius: 5px;

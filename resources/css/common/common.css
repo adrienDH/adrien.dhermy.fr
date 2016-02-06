@@ -4,3 +4,6 @@ body {
 nav {
   background: #B09B8A;
 }
+nav .nav-cursor {
+  cursor: pointer;
+}
