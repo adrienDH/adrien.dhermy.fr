@@ -1,11 +1,15 @@
 <?php
 
+include("../fonc/fonc.php");
+
+$db = connexionSQL();
+$query = "INSERT INTO contact VALUES ('" . $_POST["name"] . "', '" . $_POST["email"] . "', '" . $_POST["subject"] . "', '" . $_POST["message"] . "', '" . time() . "')";
+$db->query($query);
+
 $headers = 'From: contact@adriendhermy.fr'."\n";
 $headers .= 'Reply-To: contact@adriendhermy.fr'."\n";
 $headers .= 'Content-Type: text/plain; charset="iso-8859-1"'."\n";
 $headers .= 'Content-Transfer-Encoding: 8bit';
-
-var_dump($_POST);
 
 $message = "
 	" . $_POST["name"] . " - " . $_POST["email"] . ",\n

@@ -92,7 +92,7 @@
 					<div class="text">
 						Langages et compétences utilisés : 
 						<span class="skills">Préparation d'ordinateur</span>, 
-						<span class="skills">MAC OSX</span>,
+						<span class="skills">MAC OSX</span>
 					</div>
 				</div>
 			</div>

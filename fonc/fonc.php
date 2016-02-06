@@ -11,5 +11,5 @@ function rootUrl() {
 }
 
 function connexionSQL() {
-	return new PDO('mysql:host=localhost;dbname=site_cv;charset=utf8', 'root', 'root');
+	return new PDO('mysql:host=adriendhledhermy.mysql.db;dbname=adriendhledhermy;charset=utf8', 'adriendhledhermy', 'Adrien171192');
 }

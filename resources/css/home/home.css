@@ -149,7 +149,7 @@
   border: 1px solid #ddd;
   border-radius: 30%;
   display: block;
-  height: 300px;
+  height: 150px;
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
@@ -160,7 +160,7 @@
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 18px;
-  padding-top: 100px;
+  padding-top: 15px;
 }
 #formations .circle .degree {
   font-weight: bold;

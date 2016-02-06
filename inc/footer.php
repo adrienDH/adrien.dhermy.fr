@@ -1,13 +1,23 @@
 <div id="footer">
 	<div class="container">
-		<div class="title">Retrouvez moi sur :</div>
-		<div class="links">
-			<a rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
-				<span class="icon icon-linkedin"></span>
-			</a>
-			<a rel="nofollow" href="https://github.com/adrienDH">
-				<span class="icon icon-github"></span>
-			</a>
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<div class="title">Retrouvez moi sur :</div>
+				<div class="links">
+					<a rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
+						<span class="icon icon-linkedin"></span>
+					</a>
+					<a rel="nofollow" href="https://github.com/adrienDH">
+						<span class="icon icon-github"></span>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<div class="title">Contact par téléphone :</div>
+				<div class="links">
+					<div class="numbers-phone">06.04.52.32.20</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
