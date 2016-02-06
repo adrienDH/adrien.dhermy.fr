@@ -164,6 +164,9 @@
 #formations .circle .degree {
   font-weight: bold;
 }
+#formations .circle .department {
+  margin-top: 10px;
+}
 #contact {
   background: #2e2e2e;
   padding: 30px 0;

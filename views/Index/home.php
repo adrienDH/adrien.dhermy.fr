@@ -163,6 +163,9 @@
 					<div>
 						<span class="degree">Licence professionnelle SARI</span> à l'IUT de Bordeaux (Mention B) 
 					</div>
+					<div class="department">
+						33
+					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-4">
@@ -171,6 +174,9 @@
 					<div>
 						<span class="degree">BTS IRIS</span> au Lycée Grandmont de Tours (Mention AB)
 					</div>
+					<div class="department">
+						37
+					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-4">
@@ -178,6 +184,9 @@
 					<div class="year">2011</div>
 					<div>
 						<span class="degree">BAC STI</span> au Lycée de la Plaine de l'Ain de Amberieu en Bugey (Mention AB)
+					</div>
+					<div class="department">
+						01
 					</div>
 				</div>
 			</div>
