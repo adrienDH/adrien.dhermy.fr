@@ -12,7 +12,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-6">
+			<div class="col-xs-12 col-md-6 bottom">
 				<div class="title">Contact par téléphone :</div>
 				<div class="links">
 					<div class="numbers-phone">06.04.52.32.20</div>

@@ -41,8 +41,14 @@ nav .navbar-right {
   color: #fff;
   font-size: 24px;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   nav .navbar-right {
     border: none;
+  }
+  #footer .title {
+    margin-bottom: 5px;
+  }
+  #footer .bottom {
+    margin-top: 20px;
   }
 }

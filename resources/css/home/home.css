@@ -227,6 +227,9 @@
   #formations .circle {
     margin-top: 10px;
   }
+  #skills .second-column {
+    margin-top: 0;
+  }
 }
 @media (max-width: 768px) {
   #presentation .text {
@@ -241,9 +244,6 @@
   }
   #presentation .button-wrapper .button.contact {
     margin: 0;
-  }
-  #skills .second-column {
-    margin-top: 0;
   }
   #formations .circle {
     height: 200px;
