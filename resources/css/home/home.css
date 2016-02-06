@@ -1,6 +1,13 @@
 #presentation {
   padding: 30px 0;
 }
+#presentation .picture-wrapper {
+  text-align: center;
+}
+#presentation .picture-wrapper img {
+  border-radius: 15px;
+  width: 150px;
+}
 #presentation .title {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
@@ -18,7 +25,8 @@
   text-align: center;
 }
 #presentation .button-wrapper {
-  margin: 40px 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 #presentation .button-wrapper .button {
@@ -51,11 +59,26 @@
 #experiences .bloc {
   background: #fff;
   border: 1px solid #ddd;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
 }
 #experiences .bloc .year {
-  margin: 5px 0;
+  color: #43b3e0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#experiences .bloc .jobtitle {
+  font-size: 16px;
+}
+#experiences .bloc .jobtitle,
+#experiences .bloc .contract,
+#experiences .bloc .company,
+#experiences .bloc .skills {
+  font-weight: bold;
+}
+#experiences .bloc .text {
+  margin: 10px 0;
 }
 #skills {
   background: #f4f4f4;
@@ -82,24 +105,37 @@
   text-align: center;
 }
 #skills .bar .full.html {
-  width: 60%;
+  width: 70%;
 }
 #skills .bar .full.php {
-  width: 40%;
+  width: 60%;
 }
 #skills .bar .full.css {
   width: 70%;
 }
-#skills .bar .full.html {
+#skills .bar .full.jquery {
+  width: 50%;
+}
+#skills .bar .full.bootstrap {
+  width: 70%;
+}
+#skills .bar .full.sql {
+  width: 70%;
+}
+#skills .bar .full.mongodb {
+  width: 50%;
+}
+#skills .bar .full.linux {
   width: 60%;
 }
-#skills .bar .full .number {
+#skills .bar .full .skill {
   color: #fff;
   font-weight: bold;
 }
 #formations {
   background: #e8e8e8;
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 #formations .title {
   font-size: 28px;
@@ -110,11 +146,22 @@
 #formations .circle {
   background: #fff;
   border-radius: 100%;
-  display: table-cell;
+  display: block;
   height: 300px;
+  margin: 0 auto;
   text-align: center;
   vertical-align: middle;
   width: 300px;
+}
+#formations .circle .year {
+  color: #43b3e0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 100px;
+}
+#formations .circle .degree {
+  font-weight: bold;
 }
 #contact {
   background: #2e2e2e;
@@ -130,8 +177,9 @@
 #contact form input,
 #contact form textarea {
   background: #4f4f4f;
-  border: 1px solid #ddd;
+  border: 1px solid #8e8e8e;
   border-radius: 2px;
+  color: #bbb;
   margin: 15px 0;
   height: 50px;
   padding-left: 10px;

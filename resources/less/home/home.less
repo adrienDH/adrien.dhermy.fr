@@ -1,6 +1,15 @@
 #presentation {
 	padding: 30px 0;
 	
+	.picture-wrapper {
+		text-align: center;
+	
+		img {
+			border-radius: 15px;
+			width: 150px;
+		}
+	}
+	
 	.title {
 		font-family: "Open Sans", sans-serif;
 		font-size: 30px;
@@ -21,7 +30,8 @@
 	}
 	
 	.button-wrapper {
-		margin: 40px 0;
+		margin-top: 30px;
+		margin-bottom: 20px;
 		text-align: center;
 	
 		.button {
@@ -60,11 +70,25 @@
 	.bloc {
 		background: #fff;
 		border: 1px solid #ddd;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+		padding: 20px;
 		text-align: center;
 		
 		.year {
-			margin: 5px 0;
+			color: #43b3e0;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		
+		.jobtitle {
+			font-size: 16px;
+		}
+		.jobtitle, .contract, .company, .skills {
+			font-weight: bold;
+		}
+		
+		.text {
+			margin: 10px 0;
 		}
 	}
 
@@ -96,20 +120,31 @@
 			text-align: center;
 			
 			&.html {
-				width: 60%;
+				width: 70%;
 			}
 			&.php {
-				width: 40%;
+				width: 60%;
 			}
 			&.css {
 				width: 70%;
 			}
-			
-			&.html {
+			&.jquery {
+				width: 50%;
+			}
+			&.bootstrap {
+				width: 70%;
+			}
+			&.sql {
+				width: 70%;
+			}
+			&.mongodb {
+				width: 50%;
+			}
+			&.linux {
 				width: 60%;
 			}
 			
-			.number {
+			.skill {
 				color: #fff;
 				font-weight: bold;
 			}
@@ -119,7 +154,8 @@
 
 #formations {
 	background: #e8e8e8;
-	padding: 30px 0;
+	padding-top: 30px;
+	padding-bottom: 40px;
 	
 	.title {
 		font-size: 28px;
@@ -131,11 +167,23 @@
 	.circle {
 		background: #fff;
 		border-radius: 100%;
-		display: table-cell;
+		display: block;
 		height: 300px;
+		margin: 0 auto;
 		text-align: center;
 		vertical-align: middle;
 		width: 300px;
+		
+		.year {
+			color: #43b3e0;
+			margin-bottom: 20px;
+			font-weight: bold;
+			font-size: 18px;
+			padding-top: 100px;
+		}
+		.degree {
+			font-weight: bold;
+		}
 	}
 }
 
@@ -154,8 +202,9 @@
 	form {
 		input, textarea {
 			background: #4f4f4f;
-			border: 1px solid #ddd;
+			border: 1px solid #8e8e8e;
 			border-radius: 2px;
+			color: #bbb;
 			margin: 15px 0;
 			height: 50px;
 			padding-left: 10px;
