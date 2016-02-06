@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="title">Retrouvez moi sur :</div>
 		<div class="links">
-			<a href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
+			<a rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
 				<span class="icon icon-linkedin"></span>
 			</a>
-			<a href="https://github.com/adrienDH">
+			<a rel="nofollow" href="https://github.com/adrienDH">
 				<span class="icon icon-github"></span>
 			</a>
 		</div>

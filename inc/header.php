@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
 <link rel="stylesheet" type="text/css" href="./resources/icomoon/style.css">
+<link rel="icon" type="image/png" href="./resources/images/photo.png" />
 
 
 <?php foreach($mainController->getCssPaths() as $css): ?>
