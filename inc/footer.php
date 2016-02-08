@@ -4,10 +4,10 @@
 			<div class="col-xs-12 col-md-6">
 				<div class="title">Retrouvez moi sur :</div>
 				<div class="links">
-					<a rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
+					<a title="Linkedin" rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
 						<span class="icon icon-linkedin"></span>
 					</a>
-					<a rel="nofollow" href="https://github.com/adrienDH">
+					<a title="Gihub" rel="nofollow" href="https://github.com/adrienDH">
 						<span class="icon icon-github"></span>
 					</a>
 				</div>
