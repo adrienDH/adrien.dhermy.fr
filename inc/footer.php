@@ -7,7 +7,7 @@
 					<a title="Linkedin" rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
 						<span class="icon icon-linkedin"></span>
 					</a>
-					<a title="Gihub" rel="nofollow" href="https://github.com/adrienDH">
+					<a title="Github" rel="nofollow" href="https://github.com/adrienDH">
 						<span class="icon icon-github"></span>
 					</a>
 				</div>
