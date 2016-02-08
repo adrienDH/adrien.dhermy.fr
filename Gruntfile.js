@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 		      cwd: 'resources/css/',
 		      src: ['**/*.css'],
 		      dest: 'resources/css/min',
-		      ext: '.min.css'
+		      ext: '.css'
 		    }]
 		  }
 		},
