@@ -1,10 +1,10 @@
 <?php 
 	$mainController->addCssPaths(array(
-		"./resources/css/home/home"
+		"./resources/css/min/home/home"
 	));
 	
 	$mainController->addJsPaths(array(
-			"./resources/js/home/home"
+		"./resources/js/min/home/home"
 	));
 ?>
 
@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="hidden-xs hidden-sm col-md-3">
 				<div class="picture-wrapper">
-					<img alt="Adrien Dhermy" src="./resources/images/adrien_dhermy.png">
+					<img alt="Adrien Dhermy" src="./resources/images/min/adrien_dhermy.png">
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-9">
