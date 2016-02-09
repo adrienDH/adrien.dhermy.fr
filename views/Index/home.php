@@ -18,7 +18,7 @@
 			</div>
 			<div class="col-xs-12 col-md-9">
 				<h1 class="title">
-					Bonjour, Je suis <spans class="name">Adrien Dhermy</span>
+					Bonjour, Je suis <span class="name">Adrien Dhermy</span>
 				</h1>
 				<h2 class="text">
 					Développeur web Front End depuis 2 ans, j'habite Talence (à côté de Bordeaux).
