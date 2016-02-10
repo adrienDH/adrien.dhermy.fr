@@ -75,7 +75,8 @@
 							<span class="skills">HTML</span>, 
 							<span class="skills">CSS</span>, 
 							<span class="skills">SQL</span>, 
-							<span class="skills">PhpMyAdmin</span>
+							<span class="skills">PhpMyAdmin</span>,
+							<span class="skills">JavaScript</span>
 						</div>
 					</div>
 				</div>
@@ -118,7 +119,7 @@
 
 <div id="skills">
 	<div class="container">
-		<h3 class="title">Qualification</h3>
+		<h3 class="title">Qualifications</h3>
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
 				<span class="bar">
