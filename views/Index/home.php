@@ -35,7 +35,7 @@
 <div id="experiences">
 	<div class="container">
 		<h3 class="title">
-			Mes expériences
+			Parcours professionnels
 		</h3>
 		<div class="row">
 			<h4 class="subtitle">Informatique : </h4>
@@ -118,7 +118,7 @@
 
 <div id="skills">
 	<div class="container">
-		<h3 class="title">Mes compétences</h3>
+		<h3 class="title">Qualification</h3>
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
 				<span class="bar">
@@ -154,7 +154,7 @@
 
 <div id="formations">
 	<div class="container">
-		<h3 class="title">Mes formations</h3>
+		<h3 class="title">Cursus scolaire</h3>
 		<div class="row">
 			<div class="col-xs-12 col-md-4">
 				<div class="circle">

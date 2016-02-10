@@ -1,8 +1,7 @@
-<div id="footer">
+<footer id="footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
-				<div class="title">Retrouvez moi sur :</div>
 				<div class="links">
 					<a title="Linkedin" rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
 						<span class="icon icon-linkedin"></span>
@@ -13,14 +12,13 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 bottom">
-				<div class="title">Contact par téléphone :</div>
 				<div class="links">
 					<div class="numbers-phone">06.04.52.32.20</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 
 
 
