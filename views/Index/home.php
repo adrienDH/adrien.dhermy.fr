@@ -49,7 +49,7 @@
 					<div>
 						en <span class="contract">CDI</span>
 					</div>
-					<div class="text">Travail dans le pôle front en communication avec les pôles marketing et Back End</div>
+					<div class="text">Travail dans le pôle front en communication avec les pôles marketing et back end</div>
 					<div class="text">
 						Langages et compétences utilisés : 
 						<span class="skills">PHP</span>, 
@@ -63,11 +63,11 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<div class="bloc">
-					<div class="year">Février à Juillet 2014</div>
+					<div class="year">Février à juillet 2014</div>
 					<div>
 						<span class="jobtitle">Développeur Front</span> au <span class="company">CNRS</span>
 						<div>
-							en <span class="contract">Stage (+3 semaine en CDD)</span>
+							en <span class="contract">stage (+3 semaines en CDD)</span>
 						</div>
 						<div class="text">Travail avec les laborantins pour stocker des mesures dans une base de données</div>
 						<div class="text">
@@ -83,15 +83,15 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<div class="bloc">
-					<div class="year">Mai à Juin 2012</div>
+					<div class="year">Mai à juin 2012</div>
 					<span class="jobtitle">Conseiller technique</span> chez <span class="company">iConcept</span>
 					<div>
-						en <span class="contract">Stage</span>
+						en <span class="contract">stage</span>
 					</div>
 					<div class="text">Travail avec les commerciaux et techniciens pour la vente de matériel Apple</div>
 					<div class="text">
 						Langages et compétences utilisés : 
-						<span class="skills">Préparation d'ordinateur</span>, 
+						<span class="skills">préparation d'ordinateurs</span>, 
 						<span class="skills">MAC OSX</span>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 			</div>
 			<div class="col-xs-12 col-md-6">
 				<div class="bloc">
-					<div class="year">Été 2009 à 2012</div>
+					<div class="year">Étés 2009 à 2012</div>
 					<span class="jobtitle">Réserviste</span> dans <span class="company">l'Armée de l'air</span>
 					<div class="text">Sécurité et protection de la base 705 de Tours</div>
 				</div>
@@ -161,7 +161,7 @@
 				<div class="circle">
 					<div class="year">2014</div>
 					<div>
-						<span class="degree">Licence professionnelle SARI</span> à l'IUT de Bordeaux (Mention B) 
+						<span class="degree">Licence professionnelle SARI</span> à l'IUT de Bordeaux (mention B) 
 					</div>
 					<div class="department">
 						Département : 33
@@ -172,7 +172,7 @@
 				<div class="circle">
 					<div class="year">2013</div>
 					<div>
-						<span class="degree">BTS IRIS</span> au Lycée Grandmont de Tours (Mention AB)
+						<span class="degree">BTS IRIS</span> au Lycée Grandmont de Tours (mention AB)
 					</div>
 					<div class="department">
 						Département : 37
@@ -183,7 +183,7 @@
 				<div class="circle">
 					<div class="year">2011</div>
 					<div>
-						<span class="degree">BAC STI</span> au Lycée de la Plaine de l'Ain de Amberieu en Bugey (Mention AB)
+						<span class="degree">BAC STI</span> au Lycée de la Plaine de l'Ain de Amberieu en Bugey (mention AB)
 					</div>
 					<div class="department">
 						Département : 01
