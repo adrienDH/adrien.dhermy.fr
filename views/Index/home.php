@@ -25,7 +25,6 @@
 					Je suis actuellement en CDI dans la société Jobijoba.
 				</h2>
 				<div class="button-wrapper">
-					<div class="button js-more-infos">En savoir plus sur moi...</div>
 					<div class="button contact js-contact">Me contacter</div>
 				</div>
 			</div>
