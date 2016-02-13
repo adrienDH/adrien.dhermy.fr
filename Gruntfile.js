@@ -14,43 +14,43 @@ module.exports = function(grunt) {
 			}
 		},
 
-		imagemin: {  
-		dynamic: {                         // Another target 
-		      files: [{
-		        expand: true,                  // Enable dynamic expansion 
-		        cwd: 'resources/images/',                   // Src matches are relative to this path 
-		        src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match 
-		        dest: 'resources/images/min/'                  // Destination path prefix 
-		      }]
-		    }
+		imagemin: {
+			dynamic: {
+				files: [{
+					expand: true,
+					cwd: 'resources/images/',
+					src: ['**/*.{png,jpg,gif}'],
+					dest: 'resources/images/min/'
+				}]
+			}
 		},
 		
 		cssmin: {
-		  target: {
-		    files: [{
-		      expand: true,
-		      cwd: 'resources/css/',
-		      src: ['**/*.css'],
-		      dest: 'resources/css/min',
-		      ext: '.css'
-		    }]
-		  }
+			target: {
+				files: [{
+					expand: true,
+					cwd: 'resources/css/',
+					src: ['**/*.css'],
+					dest: 'resources/css/min',
+					ext: '.css'
+				}]
+			}
 		},
 		
 		uglify: {
-		    my_target: {
-		      files: [{
-		          expand: true,
-		          cwd: 'resources/js',
-		          src: '**/*.js',
-		          dest: 'resources/js/min'
-		      }]
-		    }
-		  },
+			my_target: {
+				files: [{
+					expand: true,
+					cwd: 'resources/js',
+					src: '**/*.js',
+					dest: 'resources/js/min'
+				}]
+			}
+		},
 		
 		watch: {
 			styles: {
-				files: ['resources/less/**/*.less'], // which files to watch
+				files: ['resources/less/**/*.less'],
 				tasks: ['less'],
 				options: {
 					nospawn: true
@@ -65,5 +65,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['less', 'watch']);
+	grunt.registerTask('default', ['less', 'cssmin', 'uglify', 'imagemin', 'watch']);
 }
