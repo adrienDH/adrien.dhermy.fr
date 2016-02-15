@@ -7,10 +7,10 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
+	<link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/min/common/common.css">
 	<link rel="stylesheet" type="text/css" href="./resources/icomoon/style.css">
-	<link rel="icon" type="image/png" href="./resources/images/photo.png" />
+	<link rel="icon" type="image/png" href="./resources/images/min/adrien_dhermy.png" />
 
 	<?php foreach($mainController->getCssPaths() as $css): ?>
 		<?= "<link rel='stylesheet' type='text/css' href='" . $css .  ".css'>" ?>
