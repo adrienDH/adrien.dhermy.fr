@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'resources/images/',
 					src: ['**/*.{png,jpg,gif}'],
-					dest: 'resources/images/min/'
+					dest: 'resources/images/'
 				}]
 			}
 		},
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'resources/css/',
 					src: ['**/*.css'],
-					dest: 'resources/css/min',
+					dest: 'resources/css/',
 					ext: '.css'
 				}]
 			}
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'resources/js',
 					src: '**/*.js',
-					dest: 'resources/js/min'
+					dest: 'resources/js/'
 				}]
 			}
 		},
@@ -65,5 +65,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['less', 'cssmin', 'uglify', 'imagemin', 'watch']);
+	
+	// Voir comment gérer uglify
+	
+	grunt.registerTask('default', ['less', 'cssmin', 'imagemin', 'watch']);
 }
