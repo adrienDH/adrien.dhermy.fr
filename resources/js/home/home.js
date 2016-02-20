@@ -1,7 +1,6 @@
 $( document ).ready(function() {
 	$("body").on("click",".js-contact", function() {
 		$("body,html").animate({ scrollTop: $("#contact").offset().top - 50 }, 1000);
-		$(".js-target").focus();
 	});
 	
 	$("nav").on("click",".js-scroll-top", function() {
