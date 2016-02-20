@@ -8,7 +8,7 @@
 			<div class="modal-body">
 				<div class="text">Laissez moi votre email et vous serrez contacté en cas de nouvelles expériences, compétences ou formations</div>
 				<input type="text" class="email" name="email" placeholder="Email">
-				<div class="submit-newsletter js-submit-newsletter" data-dismiss="modal">Valider</div>
+				<div class="submit-newsletter js-submit-newsletter">Valider</div>
 			</div>
 		</div>
 	</div>

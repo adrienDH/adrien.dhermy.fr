@@ -48,8 +48,10 @@ $( document ).ready(function() {
 		$formWrapper.find(".js-message").val("");
 	});
 	
-	$("#myModal").on('click','js-submit-newsletter',function(){
-		var email = $("#myModal").find(".text").val();
+	$("#myModal").on('click','.js-submit-newsletter',function(){
+		var email = $("#myModal").find(".email").val();
+		console.log(email);
+		
 		$.ajax({
 			url : "./ajax/add_email_newsletter.php",
 			type : "POST",
