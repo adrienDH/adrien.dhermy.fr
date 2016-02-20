@@ -50,12 +50,11 @@ $( document ).ready(function() {
 	
 	$("#myModal").on('click','.js-submit-newsletter',function(){
 		var email = $("#myModal").find(".email").val();
-		console.log(email);
 		
 		$.ajax({
 			url : "./ajax/add_email_newsletter.php",
 			type : "POST",
-			data: { email: email }
+			data: "email=" + email
 		});
 	});
 	
