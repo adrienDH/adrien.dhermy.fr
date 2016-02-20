@@ -203,7 +203,7 @@
 <div id="contact">
 	<div class="container">
 		<h3 class="title">Me contacter</h3>
-		<div class="pub-adsence">
+		<div class="pub-adsence hidden-xs hidden-sm">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Adsence -->
 			<ins class="adsbygoogle"
