@@ -23,4 +23,10 @@ class MainController {
 	public function getJsPaths() {
 		return $this->jsPaths;
 	}
+	
+	public function addViewPathPopup(array $paths = array()) {
+		foreach($paths as $path) {
+			require_once($path);
+		}
+	}
 }

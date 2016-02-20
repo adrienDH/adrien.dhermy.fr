@@ -1,10 +1,15 @@
 <?php 
 	$mainController->addCssPaths(array(
-		"./resources/css/home/home"
+		"./resources/css/home/home",
+		"./resources/css/popups/newsletter"
 	));
 	
 	$mainController->addJsPaths(array(
 		"./resources/js/home/home"
+	));
+	
+	$mainController->addViewPathPopup(array(
+		"./views/Popups/Index/newsletter.php"
 	));
 ?>
 
@@ -25,6 +30,7 @@
 					Je suis actuellement en CDI dans la société Jobijoba.
 				</h2>
 				<div class="button-wrapper">
+					<a href="#myModal" role="button" class="button btn btn-large btn-primary" data-toggle="modal">Me suivre</a>
 					<div class="button contact js-contact">Me contacter</div>
 				</div>
 			</div>

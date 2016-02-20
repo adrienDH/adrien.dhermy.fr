@@ -47,4 +47,14 @@ $( document ).ready(function() {
 		$formWrapper.find(".js-subject").val("");
 		$formWrapper.find(".js-message").val("");
 	});
+	
+	$("#myModal").on('click','js-submit-newsletter',function(){
+		var email = $(".email").val();
+		$.ajax({
+			url : "./ajax/add_email_newsletter.php",
+			type : "POST"
+			data: { email: email }
+		});
+	});
+	
 });
