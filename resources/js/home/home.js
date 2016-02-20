@@ -49,10 +49,10 @@ $( document ).ready(function() {
 	});
 	
 	$("#myModal").on('click','js-submit-newsletter',function(){
-		var email = $(".email").val();
+		var email = $("#myModal").find(".text").val();
 		$.ajax({
 			url : "./ajax/add_email_newsletter.php",
-			type : "POST"
+			type : "POST",
 			data: { email: email }
 		});
 	});
