@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	
-	// Voir comment gérer uglify
+	// Voir comment gérer uglify pour débuguer facilement le JS en dev et avoir un JS en prod minifié
 	
 	grunt.registerTask('default', ['less', 'cssmin', 'imagemin', 'watch']);
 }
