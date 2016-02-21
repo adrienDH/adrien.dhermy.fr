@@ -1,6 +1,6 @@
 <?php
 
-include("../fonc/connexionSQL.php");
+include("../fonc/fonc.php");
 
 
 
