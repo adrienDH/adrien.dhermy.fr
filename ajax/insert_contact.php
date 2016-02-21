@@ -2,8 +2,6 @@
 
 include("../fonc/fonc.php");
 
-
-
 $db = connexionSQL();
 
 die();
