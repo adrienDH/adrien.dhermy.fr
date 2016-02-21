@@ -2,7 +2,11 @@
 
 include("../fonc/connexionSQL.php");
 
+
+
 $db = connexionSQL();
+
+die();
 $query = "INSERT INTO contact VALUES ('" . $_POST["name"] . "', '" . $_POST["email"] . "', '" . $_POST["subject"] . "', '" . $_POST["message"] . "', '" . time() . "')";
 $db->query($query);
 
