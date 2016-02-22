@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^blog              index.php?controller=Blog&action=home           [L]
+
+RewriteRule ^/$                index.php?controller=Index&action=home          [L]

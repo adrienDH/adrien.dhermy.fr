@@ -1,6 +1,6 @@
 <?php
 
-class IndexController extends MainController {
+class BlogController extends MainController {
 	
 	public function __construct() {
 		

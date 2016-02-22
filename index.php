@@ -7,8 +7,14 @@
 	// Inclusion des divers fichiers pour le bon fonctionnement du site
 	include("inc/inclusions.php");
 	
-	$controllerName = "Index";
-	$actionName = "home";
+	if(!empty($_GET)) {
+		$controllerName = $_GET["controller"];
+		$actionName = $_GET["action"];
+	} else {
+		$controllerName = "Index";
+		$actionName = "home";
+	}
+
 	
 	// Inclusion du controller
 	include("Controllers/" . $controllerName . "Controller.php");

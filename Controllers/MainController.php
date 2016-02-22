@@ -3,6 +3,9 @@ class MainController {
 	
 	private $cssPaths = array();
 	private $jsPaths = array();
+	private $metaTitle = "";
+	private $metaDescription = "";
+	private $metaKeywords = "";
 	
 	// Inclusion des css dans la vue
 	public function addCssPaths(array $cssPaths = array()) {
