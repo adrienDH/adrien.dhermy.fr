@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="fr">
 <head>
-	<title>Adrien Dhermy CV</title>
-	<meta name="description" content="CV Adrien Dhermy, Développeur Front-end. Retrouvez toutes mes informations professionnelles dans mon CV en ligne" />
-	<meta name="keywords" content="adrien dhermy, développeur, front, cv, adrien dhermy cv, développeur front-end"> 
+	<title><?= $mainController->getMetaTitle() ?></title>
+	<meta name="description" content="<?= $mainController->getMetaDescription() ?>" />
+	<meta name="keywords" content="<?= $mainController->getMetaKeywords() ?>"> 
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	

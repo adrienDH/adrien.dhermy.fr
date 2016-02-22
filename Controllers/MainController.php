@@ -29,4 +29,28 @@ class MainController {
 			require_once($path);
 		}
 	}
+	
+	public function addMetaDescription($description) {
+		$this->metaDescription = $description;
+	}
+	
+	public function getMetaDescription() {
+		return $this->metaDescription;
+	}
+	
+	public function addMetaTitle($title) {
+		$this->metaTitle = $title;
+	}
+	
+	public function getMetaTitle() {
+		return $this->metaTitle;
+	}
+	
+	public function addMetaKeywords($keywords) {
+		$this->metaKeywords = $keywords;
+	}
+	
+	public function getMetaKeywords() {
+		return $this->metaKeywords;
+	}
 }
