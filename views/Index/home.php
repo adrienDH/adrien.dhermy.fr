@@ -35,7 +35,7 @@
 				</h2>
 				<div class="button-wrapper">
 					<a href="#myModal" role="button" class="button btn btn-large btn-primary" data-toggle="modal">Me suivre</a>
-					<div class="button contact js-contact">Me contacter</div>
+					<a class="button contact js-contact">Me contacter</a>
 				</div>
 			</div>
 		</div>
@@ -234,14 +234,14 @@
 				</div>
 				<div class="error"></div>
 				<div class="col-xs-12 col-md-6">
-					<div class="button send js-send">
+					<a class="button send js-send">
 						Envoyer
-					</div>
+					</a>
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<div class="button reset js-reset">
+					<a class="button reset js-reset">
 						Reset
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
