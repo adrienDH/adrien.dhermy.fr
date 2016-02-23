@@ -1,5 +1,4 @@
 Options +FollowSymlinks
-Options-Indexes 
 RewriteEngine On
 
 RewriteRule ^/$                index.php?controller=Index&action=home          [L]
