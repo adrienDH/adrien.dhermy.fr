@@ -30,8 +30,7 @@
 					<div class="name">Adrien Dhermy</div>
 				</h1>
 				<h2 class="text">
-					Développeur web Front-end depuis 2 ans, j'habite Bordeaux.
-					Je suis actuellement en CDI dans la société <a class="extern-link" href="<?= $links["jobijoba"] ?>" target="_blank">Jobijoba</a>.
+					Développeur web Front-end depuis 2 ans à Bordeaux dans la société <a class="extern-link" href="<?= $links["jobijoba"] ?>" target="_blank">Jobijoba</a>.
 				</h2>
 				<div class="button-wrapper">
 					<a class="contact" href="mailto:adrien.dhermy@gmail.com">adrien.dhermy@gmail.com</a>
