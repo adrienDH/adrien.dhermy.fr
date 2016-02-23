@@ -1,8 +1,4 @@
 $( document ).ready(function() {
-	$("body").on("click",".js-contact", function() {
-		$("body,html").animate({ scrollTop: $("#contact").offset().top - 50 }, 1000);
-	});
-	
 	$("nav").on("click",".js-scroll-top", function() {
 		$("body,html").animate({ scrollTop: 0 }, 1000);
 	});
