@@ -234,16 +234,5 @@
 				</div>
 			</div>
 		</div>
-		<div class="pub-adsence hidden-xs hidden-sm">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Adsence -->
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:728px;height:90px"
-			     data-ad-client="ca-pub-5085554003277701"
-			     data-ad-slot="8015824474"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
 	</div>
 </div>
