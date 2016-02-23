@@ -26,9 +26,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-9">
-				<h1 class="title">
-					<div class="name">Adrien Dhermy</div>
-				</h1>
+				<h1 class="title">Adrien Dhermy</h1>
 				<h2 class="text">
 					Développeur web Front-end depuis 2 ans à Bordeaux dans la société <a class="extern-link" href="<?= $links["jobijoba"] ?>" target="_blank">Jobijoba</a>.
 				</h2>
