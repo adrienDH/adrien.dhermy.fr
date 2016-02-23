@@ -34,7 +34,6 @@
 				</h2>
 				<div class="button-wrapper">
 					<a class="contact" href="mailto:adrien.dhermy@gmail.com">adrien.dhermy@gmail.com</a>
-					<div class="contact">06 04 52 32 20</div>
 					<a href="#myModal" role="button" class="button btn btn-large btn-primary" data-toggle="modal">Me suivre</a>
 				</div>
 			</div>
