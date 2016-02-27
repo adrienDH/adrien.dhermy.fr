@@ -20,13 +20,11 @@
 	</div>
 </footer>
 
-
-
-<script type="text/javascript" src="./resources/jquery/jquery.js"></script>
-<script type='text/javascript' src='./resources/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/javascript" src="<?= rootUrl() ?>/resources/jquery/jquery.js"></script>
+<script type='text/javascript' src='<?= rootUrl() ?>/resources/bootstrap/js/bootstrap.min.js'></script>
 
 <?php foreach($mainController->getJsPaths() as $js): ?>
-	<?= "<script type='text/javascript' src='" . $js . ".js '></script>" ?>
+	<?= "<script type='text/javascript' src='" .rootUrl() . $js . ".js '></script>" ?>
 <?php endforeach; ?>
 
 <!-- Code pour Google Analytics -->

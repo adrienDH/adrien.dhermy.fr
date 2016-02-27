@@ -4,12 +4,12 @@
 	$mainController->addMetaKeywords("adrien dhermy, développeur, front, cv, adrien dhermy cv, développeur front-end");
 	
 	$mainController->addCssPaths(array(
-		"./resources/css/Index/home",
-		"./resources/css/popups/newsletter"
+		"/resources/css/Index/home",
+		"/resources/css/popups/newsletter"
 	));
 	
 	$mainController->addJsPaths(array(
-		"./resources/js/Index/home"
+		"/resources/js/Index/home"
 	));
 	
 	$mainController->addViewPathPopup(array(

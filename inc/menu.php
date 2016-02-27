@@ -11,17 +11,11 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="nav-cursor js-scroll" data-scroll-target="#experiences">
-					<a>Expériences</a>
+				<li class="nav-cursor">
+					<a href="<?= rootUrl() . $links["blog"] ?>">Blog</a>
 				</li>
-				<li class="nav-cursor js-scroll" data-scroll-target="#skills">
-					<a>Compétences</a>
-				</li>
-				<li class="nav-cursor js-scroll" data-scroll-target="#formations">
-					<a>Formations</a>
-				</li>
-				<li class="nav-cursor js-scroll" data-scroll-target="#contact">
-					<a>Contact</a>
+				<li class="nav-cursor">
+					<a href="<?= rooturl() . $anchor["contact"] ?>">Contact</a>
 				</li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

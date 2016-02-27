@@ -1,1 +1,1 @@
-h1{font-family:"Open Sans",sans-serif}.articles{margin:50px 0}.articles .article{border-bottom:1px solid #ddd;padding-bottom:20px}.articles .article .link-img{width:150px}.articles .article .title-article{margin:0 0 15px}
+h1{font-family:"Open Sans",sans-serif}.articles{margin-top:50px;margin-bottom:25px}.articles .article{border-bottom:1px solid #ddd;padding:25px}.articles .article .bloc-img{text-align:center}.articles .article .bloc-img .link-img{width:110px}.articles .article .title-article{margin:0 0 15px}.articles .article .description{font-size:16px}

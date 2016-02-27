@@ -1,6 +1,7 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteRule ^blog              index.php?controller=Blog&action=home           [L]
+RewriteRule ^blog/dploy$             index.php?controller=Blog&action=dploy                     [L]
+RewriteRule ^blog$                   index.php?controller=Blog&action=home                      [L]
 
-RewriteRule ^/$                index.php?controller=Index&action=home          [L]
+RewriteRule ^/$                     index.php?controller=Index&action=home                     [L]

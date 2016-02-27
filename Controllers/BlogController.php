@@ -10,4 +10,7 @@ class BlogController extends MainController {
 		return array();
 	}
 	
+	public function dployAction() {
+		return array();
+	}
 }
