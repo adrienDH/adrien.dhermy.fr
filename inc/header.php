@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html5>
 <html lang="fr">
 <head>
 	<title><?= $mainController->getMetaTitle() ?></title>

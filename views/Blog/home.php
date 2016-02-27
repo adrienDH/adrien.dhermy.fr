@@ -9,7 +9,7 @@
 ?>
 
 <div class="container">
-	<h1>Les truc et actuces des développeurs web</h1>
+	<h1>Les trucs et actuces des développeurs web</h1>
 	<div class="articles">
 		<div class="article">
 			<div class="row">

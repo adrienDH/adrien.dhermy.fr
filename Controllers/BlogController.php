@@ -13,4 +13,12 @@ class BlogController extends MainController {
 	public function dployAction() {
 		return array();
 	}
+	
+	public function htaccessAction() {
+		return array();
+	}
+	
+	public function gitAction() {
+		return array();
+	}
 }

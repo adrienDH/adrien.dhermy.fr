@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand nav-cursor border js-scroll-top">Adrien Dhermy</a>
+			<a href="<?= rootUrl() ?>" class="navbar-brand nav-cursor border">Adrien Dhermy</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
