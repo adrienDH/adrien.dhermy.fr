@@ -1,4 +1,5 @@
 Options +FollowSymlinks
+Options -Indexes 
 RewriteEngine On
 
 RewriteRule ^blog/dploy$             index.php?controller=Blog&action=dploy                     [L]

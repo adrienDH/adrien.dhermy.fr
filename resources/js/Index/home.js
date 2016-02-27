@@ -1,8 +1,5 @@
 $( document ).ready(function() {
-	$("body").on("click",".js-contact", function() {
-		$("body,html").animate({ scrollTop: $("#contact").offset().top - 50 }, 1000);
-	});
-	
+		
 	$("#contact").on("click",".js-send", function() {
 		$formWrapper = $(this).parents(".form-wrapper");
 		var name = $formWrapper.find(".js-name").val();
