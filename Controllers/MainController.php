@@ -53,4 +53,9 @@ class MainController {
 	public function getMetaKeywords() {
 		return $this->metaKeywords;
 	}
+	
+	public function redirect($url) {
+		header("Location: " . $url
+				);
+	}
 }
