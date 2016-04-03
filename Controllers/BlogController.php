@@ -14,7 +14,7 @@ class BlogController extends MainController {
 		return array();
 	}
 	
-	public function htaccessAction() {
+	public function lineChartD3Action() {
 		return array();
 	}
 	

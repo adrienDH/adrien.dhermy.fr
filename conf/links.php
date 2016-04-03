@@ -13,7 +13,8 @@ $links = array(
 	"blog" => "blog",
 	"article-dploy" => "dploy",
 	"article-reecriture-url" => "htaccess",
-	"article-git" => "git"
+	"article-git" => "git",
+	"article-lineChartD3" => "line-chart-d3js"
 );
 
 $anchor = array(

@@ -15,47 +15,14 @@
 			<div class="row">
 				<div class="hidden-xs hidden-sm col-md-2 bloc-img">
 					<a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-git"] ?>">
-						<img class="link-img" src="<?= rootUrl() ?>/resources/images/git.png" alt="Git">
+						<img class="link-img" src="<?= rootUrl() ?>/resources/images/d3js.png" alt="D3JS">
 					</a>
 				</div>
 				<div class="col-xs-12 col-md-10">
-					<h2 class="title-article"><a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-git"] ?>">Versionné vos projet avec Git</a></h2>
+					<h2 class="title-article"><a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-lineChartD3"] ?>">Créer un Line Chart avec D3JS</a></h2>
 					<div class="description">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</div>
-				</div>
-			</div>
-		</article>
-		<article class="article">
-			<div class="row">
-				<div class="hidden-xs hidden-sm col-md-2 bloc-img">
-					<a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-dploy"] ?>">
-						<img class="link-img" src="<?= rootUrl() ?>/resources/images/dploy.gif" alt="Dploy">
-					</a>
-				</div>
-				<div class="col-xs-12 col-md-10">
-					<h2 class="title-article"><a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-dploy"] ?>">Déployé avec Dploy</a></h2>
-					<div class="description">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</div>
-				</div>
-			</div>
-		</article>
-		<article class="article">
-			<div class="row">
-				<div class="hidden-xs hidden-sm col-md-2 bloc-img">
-					<a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-reecriture-url"] ?>">
-						<img class="link-img" src="<?= rootUrl() ?>/resources/images/htaccess.png" alt="Apache">
-					</a>
-				</div>
-				<div class="col-xs-12 col-md-10">
-					<h2 class="title-article"><a href="<?= rootUrl() . $links["blog"] ."/" . $links["article-reecriture-url"] ?>">Réécrire ses urls</a></h2>
-					<div class="description">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</div>
+						Comment Créer un graphique de type line chart avec D3JS ? Comment tracer les differentes lignes d'un graphique ? Comment créer des échelles
+						avec des axes ? Je vous explique tout ici.
 				</div>
 			</div>
 		</article>

@@ -2,9 +2,9 @@ Options +FollowSymlinks
 Options -Indexes 
 RewriteEngine On
 
-RewriteRule ^blog/dploy$                   index.php?controller=Blog&action=dploy                                   [L]
-RewriteRule ^blog/htaccess$                index.php?controller=Blog&action=htaccess                                [L]
-RewriteRule ^blog/git$                     index.php?controller=Blog&action=git                                   [L]
-RewriteRule ^blog$                         index.php?controller=Blog&action=home                                    [L]
+RewriteRule ^blog/dploy$                         index.php?controller=Blog&action=dploy                                   [L]
+RewriteRule ^blog/line-chart-d3js$               index.php?controller=Blog&action=lineChartD3                            [L]
+RewriteRule ^blog/git$                           index.php?controller=Blog&action=git                                     [L]
+RewriteRule ^blog$                               index.php?controller=Blog&action=home                                    [L]
 
-RewriteRule ^/$                            index.php?controller=Index&action=home                                   [L]
+RewriteRule ^/$                                  index.php?controller=Index&action=home                                   [L]
