@@ -65,8 +65,9 @@ function drawLineChart($container) {
 	// Création du SVG
 	var svg = d3.select($container[0])
 		.append("svg")
-		.attr("width", width + margin * 2)
-		.attr("height", height + margin * 2)
+		.attr("viewBox", "0 0 " + (width + margin * 2) + " " + (height + margin * 2))
+		//.attr("width", width + margin * 2)
+		//.attr("height", height + margin * 2)
 		.append("g")
 		.attr('transform', "translate(" + margin + ", " + margin + ")");
 		
@@ -88,7 +89,7 @@ function drawLineChart($container) {
 	
 	yAxisGroup.selectAll('line')
 		.attr('x2', -6)
-		.attr('stroke', '#bbb')
+		.attr('stroke', '#000')
 		.attr('stroke-width', '1px');
 
 	yAxisGroup.selectAll('text')
@@ -111,7 +112,7 @@ function drawLineChart($container) {
 	
 	xAxisGroup.selectAll('line')
 		.attr('y2', 6)
-		.attr('stroke', '#bbb')
+		.attr('stroke', '#000')
 		.attr('stroke-width', '1px');
 	
 	xAxisGroup.selectAll('text')

@@ -8,8 +8,12 @@
 	));
 ?>
 
-<h1>Line chart avec D3JS</h1>
-
-<div class="line-chart">
-
+<div class="container">
+	<h1>Line chart avec D3JS</h1>
+	<h2>Nous allons apprendre comment réaliser un graphique de type "line chart" avec une ou plusieurs courbes.</h2>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="line-chart"></div>
+		</div>
+	</div>
 </div>

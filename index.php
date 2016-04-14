@@ -1,5 +1,7 @@
 <?php
 
+	require __DIR__ . '/vendor/autoload.php';
+
 	// Inclusion et initialisation du MainController
 	include("Controllers/MainController.php");
 	$mainController = new MainController();
