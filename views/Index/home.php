@@ -1,4 +1,7 @@
 <?php
+	$mainController->setFollow(true);
+	$mainController->setIndex(true);
+
 	$mainController->addMetaTitle("Adrien Dhermy CV");
 	$mainController->addMetaDescription("CV Adrien Dhermy, Développeur Front-end. Retrouvez toutes mes informations professionnelles dans mon CV en ligne");
 	$mainController->addMetaKeywords("adrien dhermy, développeur, front, cv, adrien dhermy cv, développeur front-end");

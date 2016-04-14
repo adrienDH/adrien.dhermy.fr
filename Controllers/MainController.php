@@ -3,6 +3,8 @@ class MainController {
 	
 	private $cssPaths = array();
 	private $jsPaths = array();
+	private $isIndexable;
+	private $isFollowable;
 	
 	// Inclusion des css dans la vue
 	public function addCssPaths(array $cssPaths = array()) {
@@ -55,7 +57,23 @@ class MainController {
 	}
 	
 	public function redirect($url) {
-		header("Location: " . $url
-				);
+		header("Location: " . $url);
 	}
+	
+	public function setIndex($isIndexable) {
+		$this->isIndexable = $isIndexable;
+	}
+		
+	public function setFollow($isFollowable) {
+		$this->isFollowable = $isFollowable;
+	}
+	
+	public function getIndex() {
+		return $this->isIndexable;
+	}
+	
+	public function getFollow() {
+		return $this->isFollowable;
+	}
+	
 }

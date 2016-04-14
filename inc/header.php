@@ -7,6 +7,12 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<?php 
+		$index = $mainController->getIndex() ? "index" : "noindex";
+		$follow = $mainController->getFollow() ? "follow" : "nofollow";
+	?>
+	<meta name="robots" content="<?= $index ?>, <?= $follow ?>">
+	
 	<link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
 	<link rel="stylesheet" type="text/css" href="./resources/icomoon/style.css">
