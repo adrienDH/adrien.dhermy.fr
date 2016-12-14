@@ -31,7 +31,7 @@
 			<div class="col-xs-12 col-md-9">
 				<h1 class="title">Adrien Dhermy</h1>
 				<h2 class="text">
-					Développeur web Front-end depuis 2 ans à Bordeaux dans la société <a class="extern-link" href="<?= $links["jobijoba"] ?>" target="_blank">Jobijoba</a>.
+					Développeur web Front-end depuis 2 ans à Orléans.
 				</h2>
 				<div class="button-wrapper">
 					<a class="contact" href="mailto:adrien.dhermy@gmail.com">adrien.dhermy@gmail.com</a>
@@ -51,7 +51,7 @@
 			<h4 class="subtitle">Informatique : </h4>
 			<div class="col-xs-12 col-md-4">
 				<div class="bloc">
-					<div class="year">Octobre 2014 à aujourd'hui</div>
+					<div class="year">Octobre 2014 à Septembre 2016</div>
 					<div>
 						<span class="jobtitle">Développeur Front</span> chez <a href="<?= $links["jobijoba"] ?>" class="company link">Jobijoba</a>
 					</div>
