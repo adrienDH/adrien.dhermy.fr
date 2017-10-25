@@ -6,6 +6,9 @@
 					<a title="Linkedin" rel="nofollow" href="https://www.linkedin.com/in/adrien-dhermy-b539778a?trk=hp-identity-name">
 						<span class="icon icon-linkedin"></span>
 					</a>
+					<a title="Viadeo" rel="nofollow" href="https://www.viadeo.com/p/002s6fnr4dp3s69">
+						<span class="icon icon-brand"></span>
+					</a>
 					<a title="Github" rel="nofollow" href="https://github.com/adrienDH">
 						<span class="icon icon-github"></span>
 					</a>
@@ -13,7 +16,7 @@
 			</div>
 			<div class="col-xs-12 col-md-6 bottom">
 				<div class="links">
-					<div class="numbers-phone">06.04.52.32.20</div>
+					<a class="numbers-phone" href="tel:+33604523220">06.04.52.32.20</div>
 				</div>
 			</div>
 		</div>

@@ -9,4 +9,5 @@ $links = array(
 	"iut-bordeaux" => "http://www.iut.u-bordeaux.fr/general/",
 	"lycee-grandmont" => "http://lycee-grandmont.fr/",
 	"lycee-plaine-plaine-de-lain" => "http://lyceeplainedelain.fr/spip/index.php",
+	"buzznative" => "https://www.buzznative.com"
 );

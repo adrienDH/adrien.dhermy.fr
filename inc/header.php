@@ -13,24 +13,16 @@
 	?>
 	<meta name="robots" content="<?= $index ?>, <?= $follow ?>">
 	
-	<link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./resources/css/common/common.css">
-	<link rel="stylesheet" type="text/css" href="./resources/icomoon/style.css">
-	<link rel="icon" type="image/png" href="./resources/images/adrien_dhermy.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	<meta charset="UTF-8">
 
-	<?php foreach($mainController->getCssPaths() as $css): ?>
-		<?= "<link rel='stylesheet' type='text/css' href='" . $css .  ".css'>" ?>
-	<?php endforeach;?>
+	<link rel="stylesheet" type="text/css" href="./resources/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./resources/icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/main.css<?= "?v=" . time() ?>">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	
-	<!-- Suivi des users avec smartlook.com -->
-	<script type="text/javascript">
-    	window.smartlook||(function(d) {
-    		var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-    		var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-   	 	c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
-    	})(document);
-    	smartlook('init', '3db75da17eb2838ca65f1b315ef0359b290106bc');
-	</script>
+	<link rel="icon" type="image/png" href="./resources/images/adrien_dhermy.png" />
 </head>
 
 <body>

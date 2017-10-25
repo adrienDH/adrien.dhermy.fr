@@ -3,13 +3,8 @@
 	$mainController->setIndex(true);
 
 	$mainController->addMetaTitle("Adrien Dhermy CV");
-	$mainController->addMetaDescription("CV Adrien Dhermy, Développeur Front-end. Retrouvez toutes mes informations professionnelles dans mon CV en ligne");
-	$mainController->addMetaKeywords("adrien dhermy, développeur, front, cv, adrien dhermy cv, développeur front-end");
-	
-	$mainController->addCssPaths(array(
-		"./resources/css/home/home",
-		"./resources/css/popups/newsletter"
-	));
+	$mainController->addMetaDescription("CV Adrien Dhermy, DÃ©veloppeur Front-end. Retrouvez toutes mes informations professionnelles dans mon CV en ligne");
+	$mainController->addMetaKeywords("adrien dhermy, dÃ©veloppeur, front, cv, adrien dhermy cv, dÃ©veloppeur front-end");
 	
 	$mainController->addJsPaths(array(
 		"./resources/js/home/home"
@@ -35,7 +30,7 @@
 				</h2>
 				<div class="button-wrapper">
 					<a class="contact" href="mailto:adrien.dhermy@gmail.com">adrien.dhermy@gmail.com</a>
-					<a href="#myModal" role="button" class="button btn btn-large btn-primary" data-toggle="modal">Me suivre</a>
+					<a href="#myModal" role="button" class="button-blue" data-toggle="modal">Me suivre</a>
 				</div>
 			</div>
 		</div>
@@ -49,8 +44,32 @@
 		</h3>
 		<div class="row">
 			<h4 class="subtitle">Informatique : </h4>
-			<div class="col-xs-12 col-md-4">
+			<div class="col-xs-12">
 				<div class="bloc">
+					<img src="./resources/images/agence-communication-buzznative-logo.png" alt="Logo Buzznatuve" class="img-responsive">
+					<div class="year">Novembre 2016 à Aujourd'hui</div>
+					<div>
+						<span class="jobtitle">Développeur Front</span> chez <a href="<?= $links["buzznative"] ?>" class="company link">Buzznative</a>
+					</div>
+					<div>
+						en <span class="contract">CDI</span>
+					</div>
+					<div class="text">Travail dans le pôle développeur en collaboration avec des designers et des chefs de projets</div>
+					<div class="text">
+						Langages et compétences utilisés : 
+						<span class="skills">Wordpress</span>,
+						<span class="skills">Symfony</span>,
+						<span class="skills">PHP</span>, 
+						<span class="skills">HTML</span>, 
+						<span class="skills">SCSS</span>, 
+						<span class="skills">Jquery</span>, 
+						<span class="skills">Bootstrap</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="bloc primary">
+					<img src="./resources/images/logo-jobijoba.png" alt="Logo Jobijoba" class="img-responsive">
 					<div class="year">Octobre 2014 à Septembre 2016</div>
 					<div>
 						<span class="jobtitle">Développeur Front</span> chez <a href="<?= $links["jobijoba"] ?>" class="company link">Jobijoba</a>
@@ -71,7 +90,8 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-4">
-				<div class="bloc">
+				<div class="bloc primary">
+					<img src="./resources/images/logo-cnrs.png" alt="Logo CNRS" class="img-responsive">
 					<div class="year">Février à juillet 2014</div>
 					<div>
 						<span class="jobtitle">Développeur Front</span> au <a href="<?= $links["cnrs"] ?>" class="company link">CNRS</a>
@@ -92,7 +112,8 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-4">
-				<div class="bloc">
+				<div class="bloc primary">
+					<img src="./resources/images/logo-iconcept.png" alt="Logo Iconcept" class="img-responsive">
 					<div class="year">Mai à juin 2012</div>
 					<span class="jobtitle">Conseiller technique</span> chez <a href="<?= $links["iconcept"] ?>" class="company link">iConcept</a>
 					<div>
@@ -118,7 +139,7 @@
 			</div>
 			<div class="col-xs-12 col-md-6">
 				<div class="bloc">
-					<div class="year">Étés 2009 à 2012</div>
+					<div class="year">Été 2009 à 2012</div>
 					<span class="jobtitle">Réserviste</span> dans <a href="<?= $links["armee-de-lair"] ?>" class="company link">l'Armée de l'air</a>
 					<div class="text">Sécurité et protection de la base 705 de Tours</div>
 				</div>
@@ -171,7 +192,7 @@
 				<div class="circle">
 					<div class="year">2014</div>
 					<div>
-						<span class="degree">Licence professionnelle SARI</span> à <a href="<?= $links["iut-bordeaux"] ?>" class="link">l'IUT de Bordeaux</a> (mention B) 
+						<span class="degree">Licence professionnelle SARI</span> à  <a href="<?= $links["iut-bordeaux"] ?>" class="link">l'IUT de Bordeaux</a> (mention B) 
 					</div>
 					<div class="department">
 						Département : 33
