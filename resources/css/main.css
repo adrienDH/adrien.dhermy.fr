@@ -1,0 +1,331 @@
+body {
+  padding-top: 50px; }
+
+a:hover:hover {
+  text-decoration: none; }
+
+.container-nav {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+nav {
+  background: #B09B8A; }
+  nav .border {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd; }
+  nav .nav-cursor {
+    cursor: pointer; }
+  nav .navbar-right {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd; }
+
+.button-blue {
+  border: 1px solid #43b3e0;
+  background: #43b3e0;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .button-blue:hover {
+    background: #fff;
+    color: #43b3e0;
+    text-decoration: none; }
+
+.extern-link {
+  color: #888;
+  text-decoration: underline; }
+  .extern-link:hover {
+    color: #43b3e0; }
+
+#footer {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #2e2e2e;
+  padding: 15px 0; }
+  #footer .links {
+    text-align: center; }
+    #footer .links .icon {
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 30px;
+      margin-right: 20px; }
+    #footer .links .numbers-phone {
+      color: #fff;
+      font-size: 22px; }
+
+@media (max-width: 992px) {
+  nav .navbar-right {
+    border: none; }
+
+  #footer .title {
+    margin-bottom: 5px; }
+  #footer .bottom {
+    margin-top: 20px; } }
+#presentation {
+  background: #fafafa;
+  padding: 30px 0; }
+  #presentation .picture-wrapper {
+    text-align: center; }
+    #presentation .picture-wrapper img {
+      border-radius: 15px;
+      width: 150px; }
+  #presentation .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-botom: 30px;
+    text-align: center; }
+  #presentation .text {
+    color: #888;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center; }
+  #presentation .button-wrapper {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center; }
+    #presentation .button-wrapper .button {
+      background: #43b3e0;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 15px 20px;
+      text-align: center; }
+      #presentation .button-wrapper .button:hover {
+        text-decoration: underline; }
+    #presentation .button-wrapper .contact {
+      color: #888;
+      display: block;
+      font-size: 16px;
+      margin-bottom: 10px; }
+
+#experiences {
+  background: #fff;
+  padding: 30px 0; }
+  #experiences .title {
+    font-size: 28px;
+    margin-botom: 30px;
+    margin-top: 0;
+    text-align: center; }
+  #experiences .subtitle {
+    font-size: 22px;
+    margin-left: 15px; }
+  #experiences .bloc {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center; }
+    #experiences .bloc.primary {
+      min-height: 290px; }
+      @media (max-width: 992px) {
+        #experiences .bloc.primary {
+          min-height: auto; } }
+    #experiences .bloc img {
+      margin: 0 auto;
+      margin-bottom: 15px;
+      max-width: 172px; }
+    #experiences .bloc .year {
+      color: #43b3e0;
+      margin-bottom: 10px;
+      font-weight: bold; }
+    #experiences .bloc .jobtitle {
+      font-size: 16px; }
+    #experiences .bloc .jobtitle, #experiences .bloc .contract, #experiences .bloc .company, #experiences .bloc .skills {
+      font-weight: bold; }
+      #experiences .bloc .jobtitle.link, #experiences .bloc .contract.link, #experiences .bloc .company.link, #experiences .bloc .skills.link {
+        color: #333;
+        text-decoration: underline; }
+    #experiences .bloc .text {
+      margin: 10px 0; }
+
+#skills {
+  background: #f4f4f4;
+  padding: 30px 0; }
+  #skills .title {
+    font-size: 28px;
+    margin-top: 0;
+    margin-botom: 30px;
+    text-align: center; }
+  #skills .bar {
+    background: #ddd;
+    border-radius: 15px;
+    display: block;
+    margin: 20px 0;
+    width: 100%; }
+    #skills .bar .full {
+      background: #43b3e0;
+      border-radius: 15px;
+      display: block;
+      height: 20px;
+      text-align: center; }
+      #skills .bar .full.html {
+        width: 70%; }
+      #skills .bar .full.php {
+        width: 60%; }
+      #skills .bar .full.css {
+        width: 70%; }
+      #skills .bar .full.jquery {
+        width: 50%; }
+      #skills .bar .full.bootstrap {
+        width: 70%; }
+      #skills .bar .full.sql {
+        width: 70%; }
+      #skills .bar .full.mongodb {
+        width: 50%; }
+      #skills .bar .full.linux {
+        width: 60%; }
+      #skills .bar .full .skill {
+        color: #fff;
+        font-weight: bold; }
+
+#formations {
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  #formations .title {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center; }
+  #formations .circle {
+    background: #fafafa;
+    border-radius: 15px;
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 300px; }
+    #formations .circle .link {
+      color: #333;
+      text-decoration: underline; }
+    #formations .circle .year {
+      color: #43b3e0;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 18px;
+      padding-top: 15px; }
+    #formations .circle .degree {
+      font-weight: bold; }
+    #formations .circle .department {
+      margin-top: 10px; }
+
+#contact {
+  background: #2e2e2e;
+  padding: 30px 0; }
+  #contact .pub-adsence {
+    margin-top: 30px;
+    text-align: center; }
+  #contact .text {
+    color: #fff;
+    font-size: 22px;
+    text-align: center; }
+  #contact .error {
+    color: #a52a2a;
+    font-size: 18px;
+    padding-left: 15px;
+    text-decoration: underline; }
+  #contact .title {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center; }
+  #contact .form-wrapper input, #contact .form-wrapper textarea {
+    background: #4f4f4f;
+    border: 1px solid #8e8e8e;
+    border-radius: 2px;
+    color: #bbb;
+    margin: 15px 0;
+    height: 50px;
+    padding-left: 10px;
+    width: 100%; }
+    #contact .form-wrapper input:focus, #contact .form-wrapper textarea:focus {
+      border-color: #43b3e0; }
+  #contact .form-wrapper textarea {
+    line-height: 35px;
+    height: 250px;
+    min-height: 150px;
+    min-width: 100%; }
+  #contact .form-wrapper .button {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 15px 0;
+    text-align: center; }
+    #contact .form-wrapper .button.send {
+      background: #43b3e0; }
+    #contact .form-wrapper .button.reset {
+      background: #4f4f4f; }
+    #contact .form-wrapper .button:hover {
+      text-decoration: underline; }
+
+@media (max-width: 992px) {
+  #formations .circle {
+    margin-top: 10px; }
+
+  #skills .second-column {
+    margin-top: 0; } }
+@media (max-width: 768px) {
+  #presentation .text {
+    font-size: 14px; }
+  #presentation .button-wrapper {
+    margin: 0; }
+    #presentation .button-wrapper .button {
+      display: block;
+      margin: 10px 0; }
+      #presentation .button-wrapper .button.contact {
+        margin: 0; }
+
+  #formations .circle {
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    width: 100%; }
+    #formations .circle .year {
+      padding-top: 50px; } }
+.modal-title {
+  font-size: 22px;
+  text-align: center; }
+
+.modal-body {
+  text-align: center; }
+  .modal-body .text {
+    font-size: 18px; }
+  .modal-body input {
+    display: block;
+    margin: 20px auto;
+    height: 50px;
+    padding-left: 15px;
+    width: 70%; }
+  .modal-body .submit-newsletter {
+    background: #43b3e0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-align: center; }
+    .modal-body .submit-newsletter:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
