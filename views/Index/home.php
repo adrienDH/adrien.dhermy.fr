@@ -2,9 +2,9 @@
 	$mainController->setFollow(true);
 	$mainController->setIndex(true);
 
-	$mainController->addMetaTitle("Adrien Dhermy CV");
-	$mainController->addMetaDescription("CV Adrien Dhermy, DÃ©veloppeur Front-end. Retrouvez toutes mes informations professionnelles dans mon CV en ligne");
-	$mainController->addMetaKeywords("adrien dhermy, dÃ©veloppeur, front, cv, adrien dhermy cv, dÃ©veloppeur front-end");
+	$mainController->addMetaTitle("Adrien Dhermy CV - Développeur web front - Orléans");
+	$mainController->addMetaDescription("CV Adrien Dhermy, Développeur Front-end à Orléans. Retrouvez toutes mes informations professionnelles dans mon CV en ligne");
+	$mainController->addMetaKeywords("adrien dhermy, Adrien Dhermy, développeur, front, cv, adrien dhermy cv, développeur front-end, développeur orléans, Développeur Orléans");
 	
 	$mainController->addJsPaths(array(
 		"./resources/js/home/home"
