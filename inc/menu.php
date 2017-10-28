@@ -26,7 +26,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a target="blank" href="./resources/pdf/CV_Adrien_Dhermy.pdf">CV PDF</a>
+					<a target="blank" href="./resources/pdf/CV-Adrien-Dhermy.pdf">CV PDF</a>
 				</li>
 			</ul>
 		</div>
